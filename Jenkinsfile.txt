@@ -47,7 +47,7 @@ pipeline {
                 sh 'mvn jacoco:report'
             }
         }
-		//Code ends for stage JaCoCo 
+		//Code ends for stage JaCoCo  
 		
 		
 		
