@@ -8,7 +8,7 @@ pipeline {
 		//Code starts for stage Clean
         stage('Clean') {
           steps {
-            sh 'mvn clean'
+            bat 'mvn clean'
             }
         }
 		//Code ends for stage Clean
